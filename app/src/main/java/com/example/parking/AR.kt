@@ -13,5 +13,8 @@ class AR : AppCompatActivity() {
         (supportFragmentManager.findFragmentById(R.id.arFragment) as ArFragment)
             .setOnTapPlaneGlbModel(message)
 
+
+        
+
     }
 }

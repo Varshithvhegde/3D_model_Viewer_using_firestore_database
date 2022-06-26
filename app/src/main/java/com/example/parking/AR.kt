@@ -12,5 +12,6 @@ class AR : AppCompatActivity() {
         var message: String? = intent.getStringExtra("message_key")
         (supportFragmentManager.findFragmentById(R.id.arFragment) as ArFragment)
             .setOnTapPlaneGlbModel(message)
+
     }
 }

@@ -19,6 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parking">
         <activity
+            android:name=".arfragment"
+            android:exported="false" />
+        <activity
             android:name=".AR"
             android:exported="false" />
         <activity

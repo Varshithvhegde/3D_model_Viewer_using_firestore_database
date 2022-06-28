@@ -59,7 +59,7 @@ public class CoursesLVAdapter extends ArrayAdapter<DataModal> {
             public void onClick(View v) {
                 // on the item click on our list view.
                 // we are displaying a toast message.
-                Intent intent=new Intent(getContext(),AR.class);
+                Intent intent=new Intent(getContext(),arfragment.class);
                 intent.putExtra("message_key", modlink);
                 getContext().startActivity(intent);
                // dataModal.setName("Pressed");
